@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="popup_style.css">
+    <meta http-equiv="Content-Security-Policy"
+  content="default-src 'self'; img-src https://*; child-src 'none';" />
+  </head>
+  <body>
+    <h1>Rick Roll Redirector</h1>
+    <p>It appear's that you've left your device unattended and unlocked... 
+      much to the delight of a nearby rover</p>
+  
+    <div class="buttons">
+      <button type="submit" class="button" id="default_btn">Use Default URLs</button>
+      <a href="changeURLS.html"><button type="submit" class="button" id="">Use Custom URL(s)</button></a>
+      <button type="submit" class="button" id="del_btn">Clear URL(s)</button>
+    </div>
+
+    <p>Current URL(s) that are being redirected (max 5):</p>
+    <table id="table">
+    </table>
+    <br/>
+    <button type="submit" class="supportBtn" id="support">Support The Project</button>
+    <script src="UI_scripts.js"></script>
+  </body>
+</html>

@@ -1,0 +1,32 @@
+body {
+  min-width: 400px; 
+  max-width: 100%;
+  position: relative;
+  vertical-align:middle;
+}
+h3{
+  text-align: center;
+}
+h2{
+  text-align: center;
+}
+label {
+  display: block;
+  font: .85rem 'Fira Sans', sans-serif;
+}
+
+input,
+label {
+  margin: .4rem 0;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.button {
+  display: inline-block;
+  font-size: 14px;
+  border-radius: 75px;
+}

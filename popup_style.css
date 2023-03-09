@@ -1,0 +1,28 @@
+
+ body {
+    min-width: 400px; 
+    max-width: 100%;
+    position: relative;
+    vertical-align:middle;
+  }
+
+  h1{
+    text-align: center;
+ }
+
+ .buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.button {
+  display: inline-block;
+  font-size: 14px;
+  border-radius: 75px;
+}
+.supportBtn {
+  display: flex;
+  margin: 0 auto;
+  font-size: 14px;
+  border-radius: 75px;
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head><link rel="stylesheet" href="change_style.css"></head>
+  <body>
+    <h3>Enter in custom URL(s) that you desire to be redirected to the infamous
+      Rick Astley song, <i>Never Gonna Give you Up</i>.
+    </h3>
+    <p>Notes: Ensure that the URL contains the proper authentication (Ex - http:// or https://). 
+      Leave the text box blank if you do not wish to update the current value. This program does not 
+      check the functionality of inputs; thus, verify your URLs work prior to submission. Else, 
+      they will not properly redirect. The max URL char length is 300.
+    </p>
+    <label for="url">Enter an https:// URL: (1)</label>
+    <input type="url" name="url" id="URL0" placeholder="https://www.example.com" pattern="https://.*" size="50" maxlength="300" required>
+    <label for="url">Enter an https:// URL: (2)</label>
+    <input type="url" name="url" id="URL1" placeholder="https://www.example.com" pattern="https://.*" size="50" maxlength="300" required>
+    <label for="url">Enter an https:// URL: (3)</label>
+    <input type="url" name="url" id="URL2" placeholder="https://www.example.com" pattern="https://.*" size="50" maxlength="300" required>
+    <label for="url">Enter an https:// URL: (4)</label>
+    <input type="url" name="url" id="URL3" placeholder="https://www.example.com" pattern="https://.*" size="50" maxlength="300" required>
+    <label for="url">Enter an https:// URL: (5)</label>
+    <input type="url" name="url" id="URL4" placeholder="https://www.example.com" pattern="https://.*" size="50" maxlength="300" required>
+    <div class="buttons">
+      <button type="submit" class="button" id="set_btn">Set Entries</button>
+      <a href="popup.html"><button type="submit" class="button" id="">Return to Main</button></a>
+      <button type="submit" class="button" id="del_btn">Clear Entries</button>
+    </div>
+    <h2 id="set_msg"></h2>
+    <script src="changeURLs.js"></script>
+  </body>
+</html>
