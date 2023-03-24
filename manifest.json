@@ -1,7 +1,7 @@
   {
     "name": "Rick Roll Redirector",
     "description": "Shenanigans shall ensue",
-    "version": "1.3",
+    "version": "1.4",
     "manifest_version": 3,
     "icons": {
       "16": "/images/rick16.png",
